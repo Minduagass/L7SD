@@ -23,6 +23,24 @@ header h2 {
   padding-bottom: 3rem;
 }
 
+main .content h5 {
+  padding-bottom: 1rem;
+  color: rgb(144, 149, 154);
+}
+
+.content {
+  font-size: 1.5rem;
+}
+
+p {
+  padding-top: 2rem;
+  color: rgb(144, 149, 154);
+}
+
+span {
+  color: rgb(144, 149, 154);
+}
+
 /* header */
 
 header {
@@ -47,4 +65,59 @@ header button {
 header button:hover {
   background-color: rgba(0, 0, 0, 0.1);
   color: black;
+}
+/* --------------------------------------------------------------------------- */
+/* main section */
+/* --------------------------------------------------------------------------- */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+  gap: 7rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+main div img {
+  height: 700px;
+  width: 550px;
+}
+
+.content {
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+.content h1 {
+  padding-bottom: 2rem;
+}
+
+hr {
+  display: flex;
+  width: 10%;
+  height: 2px;
+  border: none;
+  background-color: black;
+}
+
+.content ul {
+  padding-top: 1rem;
+  color: green;
+  list-style-position: inside;
+  padding-bottom: 3rem;
+}
+
+.content button {
+  width: 220px;
+  height: 60px;
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+}
+
+.content button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgb(0, 0, 0);
 }
