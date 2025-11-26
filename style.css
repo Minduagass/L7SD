@@ -29,7 +29,7 @@ main .content h5 {
 }
 
 .content {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 
 p {
@@ -46,7 +46,6 @@ span {
 header {
   background-image: url(./images/peakpx.jpg);
   height: 500px;
-  object-fit: cover;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -62,7 +61,7 @@ header button {
   background-color: transparent;
 }
 
-header button:hover {
+button:hover {
   background-color: rgba(0, 0, 0, 0.1);
   color: black;
 }
@@ -76,8 +75,8 @@ main {
   align-items: center;
   padding-top: 10rem;
   gap: 7rem;
-  margin-left: 20rem;
-  margin-right: 20rem;
+  max-width: 90vh;
+  margin: 0 auto;
 }
 
 main div img {
@@ -85,18 +84,12 @@ main div img {
   width: 550px;
 }
 
-.content {
-  /* display: flex; */
-  /* flex-direction: row; */
-}
-
 .content h1 {
   padding-bottom: 2rem;
 }
 
 hr {
-  display: flex;
-  width: 10%;
+  width: 15%;
   height: 2px;
   border: none;
   background-color: black;
@@ -119,5 +112,9 @@ hr {
 
 .content button:hover {
   background-color: rgba(0, 0, 0, 0.1);
-  color: rgb(0, 0, 0);
+  color: black;
+}
+
+li::marker {
+  font-size: 1.5rem;
 }
